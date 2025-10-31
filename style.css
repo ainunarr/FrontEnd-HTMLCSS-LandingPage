@@ -1,0 +1,206 @@
+.home, .shop, .about, .testimony, .contact {
+    padding-top: 200px; 
+}
+
+.menu h2 {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-icon {
+    width: 100px; 
+    margin-right: 10px;
+}
+
+.shop h2 {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shop-icon {
+    width: 100px; 
+    margin-right: 10px;
+}
+
+.product-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px #a85b1c; 
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 200px;
+    background-color: #f2e8dc; 
+    color: #3e2723; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    background-color: #8B7355; 
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 30px; 
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #D2B48C; 
+}
+
+/* Section styles */
+.home, .menu, .shop {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home {
+    background-color: #fff8dc; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu, .shop {
+    background-color: #f5deb3; 
+}
+
+.about {
+    background-color: #fff0c9; 
+    color: #3e2723; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.testimony {
+    background-color: #ffe0b2; 
+    color: #3e2723; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact h2 {
+    display: flex;
+    align-items: center;
+}
+
+.contact-person-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact-person {
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px #8B7355; 
+    padding: 20px;
+}
+
+.contact-person img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-person h3 {
+    margin-top: 10px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
