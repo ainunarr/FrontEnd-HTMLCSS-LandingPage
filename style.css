@@ -13,6 +13,14 @@ body {
     margin: 0 auto;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 200px;
+}
+
 /* ====== HEADER ====== */
 header {
     position: fixed;
@@ -212,5 +220,9 @@ footer {
 
     footer p {
         font-size: 14px;
+    }
+
+    section {
+        scroll-margin-top: 150px;
     }
 }
