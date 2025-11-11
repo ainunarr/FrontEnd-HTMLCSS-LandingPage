@@ -19,3 +19,11 @@ modalShop1.onclick = function() {
 modalShop1Content.getElementsByClassName("close")[0].onclick = function() {
     modalShop1Content.style.display = "none";
 }
+
+const menu = document.getElementById("mobile-menu");
+  const navLinks = document.getElementById("nav-links");
+
+  menu.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    navLinks.classList.toggle("active");
+  });
